@@ -26,14 +26,15 @@ def return_sample_page(name):
                     <div class="alert alert-warning" role="alert">
                             И способные
                     </div>
-                    <h2>А это жизненно<h2>
-                    <p>Встречаются два программиста:</p>
-                    <p>— Представляешь, вчера работал над проектом, и комп завис.</p>
-                    <p>— Что сделал?</p>
-                    <p>— Конечно, перезагрузил! Теперь жду, пока реальность тоже перезагрузится, а то что-то не работает.</p>
+                    <div class="alert alert-success" role="alert">
+                        А главное:
+                    </div>
+                     <div class="alert alert-info" role="alert">
+                        Любим информатику!
+                    </div>
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
                   </body>
                 </html>"""
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=8080)
+    app.run()
